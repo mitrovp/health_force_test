@@ -1,0 +1,2 @@
+playwright==1.54.0
+loguru==0.7.3
