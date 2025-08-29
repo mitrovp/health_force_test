@@ -41,3 +41,25 @@ or just **python scrape.py https://www.linkedin.com/in/example-profile** to use 
 ---
 
 This will get you started with scraping LinkedIn posts using the provided scraper code.
+
+
+
+# Invoice Parser
+
+This project provides a Python script to parse invoice documents using AWS Textract. It extracts key-value pairs and tables across multiple pages, normalizes the data, and outputs structured invoice information including line items.
+
+## Key Features
+
+- Processes multi-page invoices (example set to 2 pages)
+- Extracts key-value pairs and tabular data from each page
+- Normalizes extracted tables and invoice fields
+- Combines all data into a consolidated JSON output
+- Logs key events for tracking parsing progress and errors
+
+## Usage
+
+1. Install dependencies: **pip install -r requirements.txt**
+2. Ensure AWS credentials and permissions for Textract are set up.
+3. Place the invoice file path in `INVOICE_FILE_PATH`.
+4. Run the parser: **python extract.py**
+5. The parsed invoice data will be saved to `OUTPUT_FILE_PATH` in JSON format.
