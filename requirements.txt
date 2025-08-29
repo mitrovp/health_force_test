@@ -1,2 +1,5 @@
 playwright==1.54.0
 loguru==0.7.3
+boto3==1.40.19
+botocore==1.40.19
+python-dotenv==1.1.1
